@@ -21,7 +21,7 @@ public class SpringJpaConfig {
         ds.setDriverClassName("org.postgresql.Driver");
         ds.setUrl("jdbc:postgresql://localhost:5432/postgres");
         ds.setUsername("administrator");
-        ds.setPassword("root_root");
+        ds.setPassword("root!root");
         return ds;
     }
 
